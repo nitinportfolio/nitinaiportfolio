@@ -1,4 +1,4 @@
-baseURL: "https://nitinportfolio.github.io/nitinaiportfolio.github.io/"
+baseURL: "https://hugo-profile.netlify.app/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
