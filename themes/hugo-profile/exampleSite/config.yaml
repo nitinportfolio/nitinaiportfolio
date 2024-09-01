@@ -1,4 +1,4 @@
-baseURL: "https://nitinportfolio.github.io/nitinaiportfolio.github.io/"
+baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
@@ -311,7 +311,7 @@ params:
         image: /images/projects/profile.png
         featured:
           name: Demo
-          link: https://nitinportfolio.github.io/nitinaiportfolio.github.io/  
+          link: https://hugo-profile.netlify.app
         badges:
           - "Hugo"
           - "Bootstrap"
