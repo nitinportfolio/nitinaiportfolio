@@ -311,7 +311,7 @@ params:
         image: /images/projects/profile.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: http://localhost:1313/nitinaiportfolio.github.io/ 
         badges:
           - "Hugo"
           - "Bootstrap"
