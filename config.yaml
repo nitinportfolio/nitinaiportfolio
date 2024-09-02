@@ -1,4 +1,4 @@
-baseURL: "https://nitinportfolio.github.io/nitinaiportfolio"
+baseURL: "https://example.org/"
 languageCode: "en-us"
 title: "Hugo Profile"
 theme: hugo-profile
@@ -165,9 +165,10 @@ params:
 
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "**Here are a few technologies I've been working with recently:**" 
+      
       items:
-        - "HTML"
+        - "**HTML**"
         - "CSS"
         - "JavaScript"
         - "React"
@@ -200,15 +201,15 @@ params:
           name: "View the project"
           url: "https://example.com"
         content: "**ANZ Bank - Migrating Bank's Servers & Software to Latest Version**\n\n
-        1. Managing a team of 15+ members.\n
- 2. Determine overall project plan, structure, schedule, and staffing requirements.\n
+1. Managing a team of 15+ members.\n
+2. Determine overall project plan, structure, schedule, and staffing requirements.\n
 3. Actively participated in a weekly status meeting with the client, discussing project status and bottlenecks.\n
 4. Tracking work progress, conducting daily stand-up calls to get the daily status, andunderstanding bottlenecks or risks if any.\n
 5. Coordinating with offshore team, ensuring on-time deliverables.\n
 6. Delegating work to the team members based on the skills and keeping management informed on deliverables and raising red flags whenever saw any risk.\n
 7. Involved in other management activities such as – Resource Management: resource planning and loading, project planning, working on cost estimation sheet, work allocation,reporting internal and external project performance on a periodic basis, and other activities using Wipro-specific tools and matrix.\n\n
 **CITI Bank - Operational Risk Management**\n\n
-       1. Leading a team of 8 + members.\n
+1. Leading a team of 8 + members.\n
 2. Involved in requirement gathering, analysis, and feasibility.\n
 3. Involved in data analysis, database design, and developing and tuning critical PL/SQL objects.\n
 4. Technical discussion with the clients on technical design and taking inputs.\n
@@ -216,20 +217,18 @@ params:
 6. Involved in code review, design, test scenarios & Unit test cases.\n
 7. Working with the various streams, Project documentation, Integrated Change Control;communication with the stakeholders, and handling escalations."
 
-      
+
 
       - job: "Tech Lead"
         company: "ACS - A Xerox Company"
         #companyUrl: "https://example.com"
-        date: "Feb 2009 - Oct 2011"
+        date: "Jan 2009 - Oct 2011"
         info:
           enable: false
         featuredLink:
           enable: false
-          url: "https://example.com"
-        content: 
-         "**Michlen & Office Depot DIGITAL FUEL - Implementation Digital Fuel BI tool**\n\n
-
+          #url: "https://example.com"
+        content:  "**Michlen & Office Depot DIGITAL FUEL - Implementation Digital Fuel BI tool**\n\n
 1. Build & trained the technical & functional team of 10+ members. \n
 2. Implemented Digital Fuel Service Flow BI Reporting tool for different clients.\n
 3. Helping and guiding team members on the technical front whenever required.\n
@@ -238,24 +237,39 @@ params:
 6. Ensuring target realizations and bulge ratios, Implementing service improvement plans,giving leads to senior management.\n
 7. Performed capacity planning and was responsible for project prioritization by providing information about the resource availability to business managers, project sponsors & clients."
 
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+      - job: "Software Engineer"
+        company: 3i infotech - India and US
+        #companyUrl: "https://example.com"
+        date: "Jan 2005 - Dec 2008"
+        info:
+          enable: false
         featuredLink:
-          enable: true
-          url: "https://example.com"
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          enable: false
+          #url: "https://example.com"
+        content:  "**PSCM, John Snow Inc - Oracle BI Reports, Database**\n\n
+1. Involved in requirement gathering & delivery for different Discoverer BI reports.\n
+2. Coordinating with the offshore team for delegation, requirement clarifications, and on-time delivery of project modules.\n
+3. Testing deliverables to make sure development is bugs-free and aligned with the clients requirements.\n
+4. Involved in Database design, developing PL/SQL objects, and creating different Oracle BI reports.\n
+5. Created new database PL/SQL objects such as packages, procedures, and triggers and also customized existing objects.\n
+6. Responsible for testing the development patches before applying to the UAT or production environment and also responsible for on-time teams deliverables."
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "Entrepreneurial Journey"
+        company: "Xilytica"
+        #companyUrl: "https://example.com"
+        date: "Mar 2014 - Till Date"
+        info:
+          enable: false
+        featuredLink:
+          enable: false
+          #url: "https://example.com"
+        content: "**freelancing, Machine Learning, Deep Learning Generative AI, Data Science Training**\n\n
+  1. I have single-handedly built my training and consulting platforms, Skill Venue and Xilytica,from the ground up. Idea was to built an online learning & mentoring platform to bringtrainers, mentors & college students/ working professionals to it. So that trainers, mentorscan provide their respective services to colleges & individuals. But due to unforeseencircumstances, had to pivot the platform to providing Data Science & Machine LearningTraining & Consulting platform.\n
+  2. While delivering tangible outcomes for my clients, I was also involved in actively developing business leads and onboarding trainers & mentors for my clients.\n
+  3. I have also dipped my toes into digital marketing, content strategy, and running digital advertising, generating leads over various social platforms for my companies.\n
+  4. Lastly, recruiting, and grooming talent has been a pleasant outcome of my entrepreneurial venture as I have got to be part of several peoples career journeys.\n
+  5. Since last few years, I have trained & mentored many college students & working professionals in Data Science & Machine learning.\n
+  6. I have been undertaking Data Science and AI projects from companies and startups in India and US."
 
   # Education1 
   education:
