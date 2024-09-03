@@ -303,7 +303,6 @@ params:
     index: false
     items:
       - title:  "# Vernacular Voice and Text-Based AI Assistant"
-        image: "/images/me.png"
         school:
           name: Generative AI, OpenAI LLM API, Langchain, Pinecone Vector Database, Scrapping
           url: " "
@@ -325,14 +324,12 @@ In the later stages of the project, we plan to integrate a GenAI agent capable o
 
 ***Complete Idea & Development done by me***\n
 The entire concept was conceived and developed by me, with a focus on creating value and addressing key challenges within the agricultural sector. After thorough discussions, both the investors and the founder found this idea exceptionally compelling, recognizing its potential to significantly benefit the company. The idea not only aligns with the company’s goals but also positions us strongly in the market, driving future growth and sustainability."
-        
         featuredLink:
           enable: true
           name: "Clone on Github"
           url: "http://app.nitinaiportfolio.com"
 
       - title: "Grain Quality Digitization Using CNN ResNet Model"
-        image: "/images/me.png"
         school:
           name: "Deep Learning, Convolutional Neural Network, ResNetTensorflow"
           url: " "
@@ -363,7 +360,6 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
 
       - title: "Inventory optimizing for a Retail Chain"
-        image: "/images/me.png"
         school:
           name: "Data Analysis, Python, PowerBI, SQL Database"
           url: " "
@@ -375,7 +371,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
   # Achievements
   achievements:
-    enable: false
+    enable: true
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -401,7 +397,22 @@ Dataset Preparation: The images were annotated based on predefined quality metri
     # title: "Custom Name"
     items:
       - title: Vernacular Voice and Text-Based AI Assistant
-        content: "We have developed a conversational RAG (Retrieval-Augmented Generation)" 
+        content: "We have developed a conversational RAG (Retrieval-Augmented Generation) application designed to assist farmers by providing answers to their queries through both voice and text interfaces. This AI assistant addresses a broad spectrum of agricultural topics, including government policies, crop cultivation practices, irrigation techniques, pest control measures, and the use of agricultural products and tools, as well as other farm-related subjects.
+
+**Proof of Concept Completion**
+
+The initial proof of concept has been successfully completed, utilizing cutting-edge technologies: OpenAI's API for the Large Language Model (LLM), Pinecone as the vector database, and Langchain as the orchestration framework. This phase demonstrated the application's capability to deliver accurate and contextually relevant responses to farmers' inquiries, showcasing the potential of AI in transforming agricultural support.
+
+**Next Steps**
+
+Building on this success, we are now advancing to the next stage of development. Our focus will be on training an open-source large language foundation model, which will then be fine-tuned under supervision using a dataset comprising real-world queries from farmers. This fine-tuning process will ensure that the AI model is highly specialized in addressing the unique challenges and needs within the agricultural sector.
+
+**Future Vision**
+
+In the later stages of the project, we plan to integrate a GenAI agent capable of analyzing satellite imagery to identify specific plant diseases, nutrient deficiencies, and environmental stress factors. This innovation will empower farmers to apply targeted treatments precisely where they are needed, thereby reducing chemical usage, minimizing waste, enhancing crop yield and quality, and promoting sustainable farming practices.\n
+
+***Complete Idea & Development done by me***\n
+The entire concept was conceived and developed by me, with a focus on creating value and addressing key challenges within the agricultural sector. After thorough discussions, both the investors and the founder found this idea exceptionally compelling, recognizing its potential to significantly benefit the company. The idea not only aligns with the company’s goals but also positions us strongly in the market, driving future growth and sustainability."
 
         image: /images/projects/profile.png
         featured:
@@ -470,9 +481,9 @@ Dataset Preparation: The images were annotated based on predefined quality metri
     socialNetworks:
       github: https://github.com
       linkedin: https://linkedin.com
-      #twitter: https://twitter.com
-      #instagram: https://instagram.com
-      #facebook: https://facebook.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
