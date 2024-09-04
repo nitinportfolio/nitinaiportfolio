@@ -217,9 +217,11 @@ params:
             - Technical Analysis
             - Financial Modeling
             - Market Data Analysis
+            - Algo Trading Strategies
             - Portfolio Optimization
-            - Backtesting Algo Trading Strategies
-            - Trading Platform - Kite API/ Angelone API
+            - Backtesting
+            - Kite API
+            - Angelone API
  
 
   # Experience123
@@ -383,6 +385,61 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           enable: true
           url: "https://example.com"
 
+      - title: "Brand Listening & Sentiment Analysis for Spring-Mattress Company"
+        image: "/images/me.png"
+        school:
+          name: "Machine Learning, NLP, Data Analysis, Python, PowerBI, MySQL Database"
+          url: " "
+        #GPA: "4.2 out of 5.0"
+        content: "Brand Listening & Sentiment Analysis project for a client Spring-Mattress company that is based out of US. The analysis provided valuable insights into how customers perceive the brand, its products, and services. By monitoring online conversations, social media interactions, and customer reviews, the company gained a deep understanding of customer sentiment, preferences, and pain points. This information helped in identifying areas of improvement, addressing customer concerns proactively, and enhancing overall brand reputation and customer satisfaction. The actionable insights derived from the analysis guided strategic decision-making, allowing the company to optimize marketing strategies, product development, and customer engagement initiatives. "
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+      - title: "Clustered and Analysed data from HomeOwner Association (HOA)"
+        image: "/images/me.png"
+        school:
+          name: "Machine Learning, Clustering Algorithm, Data Analysis, Python, MySQL Database"
+          url: " "
+        #GPA: "4.2 out of 5.0"
+        content: "Extracted and Analysed data from HomeOwner Association (HOA) PDF documents & categorized & store the data in a SQL database, paving the way for a front-end service that provides users with insights based on the uploaded HOA documents."
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+      - title: "Build Sales Pipeline for Cilans systems"
+        image: "/images/me.png"
+        school:
+          name: "Machine Learning, NLP, Scrapping, Data Analysis, Python, PowerBI, MySQL Database"
+          url: " "
+        #GPA: "4.2 out of 5.0"
+        content: "For the client Cilans system who are into corporate trainings & consulting services. The project entails scraping publically available data from specified websites to collect comprehensive information about companies & working professionals, storing this data securely in a database, and utilizing Natural Language Processing (NLP) techniques for insightful analysis. The goal was to extract meaningful insights such about company, number of employees, name decision makers etc. that can benefit the client's sales team and enhance their sales strategies. The project significantly aided the client in creating an effective sales pipeline by leveraging data scraping which led to 30% increase in leads generation. The NLP insights enabled targeted outreach and personalized communication, ensuring engagement with high-potential leads that resulted in 15-20% improvement in the conversion rate. This approach streamlined the sales process, allowing the client to prioritize opportunities and optimized follow-up actions, reducing the average sales cycle duration by 15%, resulting in faster deal closures."
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+      - title: "Developed Machine Learning based Stocks Trading Strategies"
+        image: "/images/me.png"
+        school:
+          name: "Machine Learning, Time Series, Trading API, Scrapping, Data Analysis, Python, Trading Kite and AngelOne API"
+          url: " "
+        #GPA: "4.2 out of 5.0"
+        content: "For a SAAS based trading platform created ML based algorithmic trading strategies. The project involved designing, implementing, and optimizing Machine Learning based algorithmic trading strategies tailored to meet the specific requirements of clients. The goal was to develop automated trading systems that can execute trades based on predefined criteria and parameters.  Conducted back testing to evaluate strategy performance using historical data & optimize strategies for maximum efficiency, profitability, and risk mitigation. Backtesting strategies resulted in a quantifiable improvement in traders' profitability, with an average increase of 10% in profits across tested strategies."
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
+      - title: "Developed Smart Stocks Screeners"
+        image: "/images/me.png"
+        school:
+          name: "Machine Learning, Trading Kite and AngelOne API, Scrapping, Data Analysis, Python"
+          url: " "
+        #GPA: "4.2 out of 5.0"
+        content: "Developed custom trading screeners for individual retail traders & implemented these screeners on cloud servers for easier access to the traders. These screeners were designed to assist clients in identifying potential trading opportunities based on their specified filtering criteria and market conditions. The developed screeners helped traders in filtering thousands of stocks & uncover hidden gems – stocks but haven't yet garnered wider attention. It frees up valuable time for the clients so that they can focus on in-depth analysis and trade execution. It also provides real time alerts & notifications about their trade setups price movements, or market events, allowing them to act promptly and capitalize on opportunities. Screener helped client in identifying 10 times more trading opportunities compared to when client was manually filtering & following stocks his stocks."
+        featuredLink:
+          enable: true
+          url: "https://example.com"
+
   # Achievements
   achievements:
     enable: false
@@ -410,48 +467,98 @@ Dataset Preparation: The images were annotated based on predefined quality metri
     enable: true
     # title: "Custom Name"
     items:
-      - title: Vernacular Voice and Text-Based AI Assistant
-        content: "We have developed a conversational RAG (Retrieval-Augmented Generation)" 
+      - title: Youtube Videos Summary and Analysis Application
+        content: "Using GenAI framework built an application that summarises & analysis YouTube Videos. The Application provides a tool for users to quickly understand and evaluate video content. It summarizes key points and highlights from videos, making it easier to grasp main ideas without watching the entire content. Used NLP features like keyword extraction, sentiment analysis, and context breakdown to offer deeper insights. Ideal for researchers, students, and busy professionals, this application saves time and enhances comprehension by distilling lengthy videos into concise, informative summaries and analyses." 
 
         image: /images/projects/profile.png
         featured:
-          name: Demo
+          name: GitHub
           link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "NLP"
+          - "Huggingface"
+          - "OpenAI API"
+          - "Langchain"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fa fa-envelope
+          #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
             url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          #- icon: fab fa-twitter
+          #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Movie Recommendation Application
+        content: A Movie Recommendation Application utilizes machine learning algorithms and data analytics to deliver personalized film suggestions. It processes user data, such as viewing history, ratings, and genre preferences, to generate recommendations using techniques like collaborative filtering, content-based filtering, and hybrid models. Collaborative filtering analyzes patterns in user behavior to suggest movies based on similar users' choices, while content-based filtering recommends films with similar attributes to those a user has liked.
         image: /images/projects/converter.jpg
         featured:
-          name: Demo
+          name: GitHub
           link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "Collabrative Filtering"
+          - "Content-Based Filtering"
+          - NLP
+          - "FastAPI"
+          - Streamlit
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Stock Price Prediction Using Deep Learning
+        content: Stock price prediction using deep learning leverages neural networks to forecast future stock prices based on historical data and market indicators. I used advanced models like Long Short-Term Memory (LSTM) networks and Gated Recurrent Units (GRUs)to capture temporal dependencies and trends in time-series data. The process involves preprocessing historical stock prices, incorporating additional features such as trading volume and sentiment analysis, and training the model on this data. The goal is to predict future price movements with improved accuracy, aiding investors in making informed decisions.
+        image: /images/projects/converter.jpg
         featured:
-          name: Demo V2
+          name: GitHub
           link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "Deep Learning"
+          - "LSTM"
+          - NLP
+          - "Trading APIs"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: Youtube Videos Translation App
+        content: A YouTube video translation application for English to Hindi uses OpenAI’s language models and Generative AI (GenAI) to translate video content. It starts by extracting the English audio from the video and converting it into text using speech recognition. OpenAI’s API then translates this text into Hindi, while GenAI ensures the translation is contextually accurate and natural-sounding. The translated text is used to create Hindi subtitles or voiceovers. This process involves advanced machine learning techniques to understand and generate human-like language, making it easier for Hindi-speaking users to comprehend and engage with English-language videos.
+        image: /images/projects/converter.jpg
+        featured:
+          name: GitHub
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "GenAI"
+          - "LLM"
+          - "OpenAI API"
+          - "Langchain"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: Insurance Claims Clustering App
+        content: An Insurance Claim Clustering App uses machine learning algorithms to categorize and group insurance claims based on various features such as claim type, severity, and fraudulent indicators. By analyzing historical claims data, the app identifies patterns and similarities, enabling insurers to streamline the claim management process. Clustering techniques, such as K-means or hierarchical clustering, are employed to segment claims into distinct categories for better handling and analysis. This helps in improving operational efficiency, detecting anomalies, and prioritizing claims that require immediate attention. Overall, the app aids in enhancing decision-making and resource allocation within the insurance industry.
+        image: /images/projects/converter.jpg
+        featured:
+          name: GitHub
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Machine Learning"
+          - "K-Means Clustering"
+          #- "Hierarchical Clustering"
+          - "Streamlit"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: 200 SMA and 50 EMA Crossover Screener
+        content: The 200 SMA and 50 EMA Crossover Screener is a trading tool that identifies potential buy or sell signals based on moving average crossovers. It monitors the 200-day Simple Moving Average (SMA) and the 50-day Exponential Moving Average (EMA) of a stock or asset. When the 50 EMA crosses above the 200 SMA, it signals a potential buying opportunity, indicating an uptrend. Conversely, when the 50 EMA crosses below the 200 SMA, it suggests a potential selling opportunity, indicating a downtrend. This screener helps traders make informed decisions by highlighting significant trend shifts in the market.
+        image: /images/projects/converter.jpg
+        featured:
+          name: GitHub
+          link: https://hugo-profile-2.netlify.app
+        badges:
+          - "Kite API"
+          - "Angel One API"
+          - "FastAPI"
+          - "Streamlit"
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
