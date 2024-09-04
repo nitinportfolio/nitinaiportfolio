@@ -13,18 +13,13 @@
             <div class="col-sm-12 col-md-12 col-lg-8 content">
                 {{ .Site.Params.about.content | markdownify }}
 
-                <!-- Loop through each skill category -->
                 {{ if .Site.Params.about.skills.enable }}
-                {{ range .Site.Params.about.skills.categories }}
-                <section class="skills-category">
-                    <h4>{{ .title }}</h4>
-                    <ul>
-                        {{ range .items }}
-                        <li>{{ . | markdownify }}</li>
-                        {{ end }}
-                    </ul>
-                </section>
-                {{ end }}
+                {{ .Site.Params.about.skills.title }}
+                <ul>
+                    {{ range .Site.Params.about.skills.items }}
+                    <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
                 {{ end }}
             </div>
         </div>

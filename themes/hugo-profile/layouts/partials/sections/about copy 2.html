@@ -13,19 +13,30 @@
             <div class="col-sm-12 col-md-12 col-lg-8 content">
                 {{ .Site.Params.about.content | markdownify }}
 
-                <!-- Loop through each skill category -->
                 {{ if .Site.Params.about.skills.enable }}
-                {{ range .Site.Params.about.skills.categories }}
-                <section class="skills-category">
-                    <h4>{{ .title }}</h4>
-                    <ul>
-                        {{ range .items }}
-                        <li>{{ . | markdownify }}</li>
+                <h4>{{ .Site.Params.about.skills.title }}</h4>
+                <ul>
+                    {{ range .Site.Params.about.skills.items }}
+                    <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+                
+                <!-- IT Skills Section with Logos -->
+                {{ if .Site.Params.about.itSkills.enable }}
+                <section id="skills">
+                    <h4>{{ .Site.Params.about.itSkills.title }}</h4>
+                    <div class="skills-container">
+                        {{ range .Site.Params.about.itSkills.items }}
+                        <div class="skill-item">
+                           <!---- <img src="{{ .logo }}" alt="{{ .name }}" class="skill-logo"> -->
+                            <h5>{{ .name }}</h5>
+                        </div>
                         {{ end }}
-                    </ul>
+                    </div>
                 </section>
                 {{ end }}
-                {{ end }}
+
             </div>
         </div>
     </div>

@@ -161,66 +161,56 @@ params:
     I take pride in my ability to distill complex concepts into digestible insights, facilitating informed decision-making across diverse teams and departments. Thriving in dynamic environments, I am committed to remaining at the **forefront of AI technologies**, continually expanding my skill set and exploring emerging trends. With a relentless pursuit of excellence, I am driven to make a meaningful impact through the application of **cutting-edge AI solutions**. \n\n
     I am extensively engaged in delivering comprehensive training sessions tailored for prominent global IT enterprises, focusing specifically on the dynamic fields of **Data Science, Machine Learning and GenAI**. These sessions encompass a wide range of topics, including but not limited to **Data Analysis, Predictive Modeling, Deep Learning, NLP, Vector Database, LangChain, LLMs and Development & Deployment of AI applications**. \n\n
     Over time, I have conceptualized and executed **algorithmic trading strategies utilizing Python and AI frameworks** for various trading clients in the Indian Stock Market. Utilize machine learning techniques to **analyze market data and identify profitable trading opportunities**. Additionally, I have adeptly provided training to non-technical individuals in effectively utilizing these algorithmic trading methodologies.\n\n
-    I bring forth over **19 years of diverse and extensive experience spanning the breadth of the IT domain**, coupled with a dedicated focus of over 8 years specifically within the realm of Data Science and Machine Learning technology stack. Throughout my career journey, I have honed a robust skill set encompassing various facets of IT, including **software development, project management, and strategic planning**, while concurrently immersing myself in the cutting-edge innovations of Data Science and Machine Learning." 
-
+    I bring forth over **19 years of diverse and extensive experience spanning the breadth of the IT domain**, coupled with a dedicated focus of over 8 years specifically within the realm of Data Science and Machine Learning technology stack. Throughout my career journey, I have honed a robust skill set encompassing various facets of IT, including **software development, project management, and strategic planning**, while concurrently immersing myself in the cutting-edge innovations of Data Science and Machine Learning."
 
     skills:
       enable: true
-      categories:
-        - title: "Data Science & Machine Learning SKills"
-          items:
-            - Python
-            - R 
-            - SQL
-            - MySQL
-            - TensorFlow 2.0
-            - PowerBI
-            - Tableau
-            - Statistics
-            - Streamlit
-            - PL-SQL
-            - HTML & CSS
-            - Oracle Database
-            - Docker
-            - MLFlow
- 
-        - title: "Machine Learning Algorithms"
-          items:
-            - Data Analysis
-            - Regression
-            - Classification
-            - Clustering
-            - Forecasting
-            - Computer Vision
-            - Visualisations
-            - NLP - Natural Language Processing
-            - ANN - Artificial Neural Network
-            - CNN - Convolutional Neural Network 
-            - RNN - Recurrent Neural Network
-        - title: "GenAI - Generative Artificial Intelligence"
-          items:
-            - HuggingFace
-            - LLM - Large Language Models
-            - OpenAI - GPT Models
-            - Embedding Models
-            - LangChain
-            - Vector Database
-            - Pinecone
-            - Chroma
-            - Weaviate
-            - Faiss
-            - Qdrant
-        - title: "Financial Analysis & Equity Market Skills"
-          items:
-            - Algorithmic Trading
-            - Fundamental Analysis
-            - Technical Analysis
-            - Financial Modeling
-            - Market Data Analysis
-            - Portfolio Optimization
-            - Backtesting Algo Trading Strategies
-            - Trading Platform - Kite API/ Angelone API
- 
+      title: "Here are a few technologies I've been working with recently:" 
+      
+      items:
+        - "**HTML**"
+        - "CSS-JS"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+        - "Python"
+        - "R"
+        - "SQL"
+        - "SkLearn"
+        - "TensorFlow 2.0"
+        - "PowerBI"
+        - "Tableau"
+        - "Statistics"
+        - "Streamlit"
+        - "PL-SQL"
+        - "HTML & CSS"
+        - "Oracle Database"
+        - "Vector Database"
+
+    skills:
+      enable: true
+      title: "New are a few technologies I've been working with recently:" 
+      
+      items:
+        - "**HTML**"
+        - "Vector Database"
+        - "JavaScript"
+        - "React"
+        - "Node"
+        - "Express"
+        - "Python"
+        - "R"
+        - "SQL"
+        - "SkLearn"
+        - "TensorFlow 2.0"
+        - "PowerBI"
+        - "Tableau"
+        - "Statistics"
+        - "Streamlit"
+        - "PL-SQL"
+        - "HTML & CSS"
+        - "Oracle Database"  
 
   # Experience123
   experience:
