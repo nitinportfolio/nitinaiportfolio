@@ -314,8 +314,8 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title:  "# Vernacular Voice and Text-Based AI Assistant"
-        image: "/images/me.png"
+      - title:  "# Vernacular Voice and Text-Based AI Agent"
+        image: "/images/voice-based-ai-agent.png"
         school:
           name: Generative AI, OpenAI LLM API, Langchain, Pinecone Vector Database, Scrapping
           url: " "
@@ -344,7 +344,7 @@ The entire concept was conceived and developed by me, with a focus on creating v
           url: "http://app.nitinaiportfolio.com"
 
       - title: "Grain Quality Digitization Using CNN ResNet Model"
-        image: "/images/me.png"
+        image: "/images/grain-quality-classification.png"
         school:
           name: "Deep Learning, Convolutional Neural Network, ResNetTensorflow"
           url: " "
@@ -374,8 +374,8 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           url: "http://app.nitinaiportfolio.com"
 
 
-      - title: "Inventory optimizing for a Retail Chain"
-        image: "/images/me.png"
+      - title: "Inventory Analysis for a Retail Chain"
+        image: "/images/inventory-analysis.png"
         school:
           name: "Data Analysis, Python, PowerBI, SQL Database"
           url: " "
@@ -386,7 +386,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           url: "https://example.com"
 
       - title: "Brand Listening & Sentiment Analysis for Spring-Mattress Company"
-        image: "/images/me.png"
+        image: "/images/brand-listening.png"
         school:
           name: "Machine Learning, NLP, Data Analysis, Python, PowerBI, MySQL Database"
           url: " "
@@ -397,7 +397,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           url: "https://example.com"
 
       - title: "Clustered and Analysed data from HomeOwner Association (HOA)"
-        image: "/images/me.png"
+        image: "/images/pdf-cluster.png"
         school:
           name: "Machine Learning, Clustering Algorithm, Data Analysis, Python, MySQL Database"
           url: " "
@@ -408,7 +408,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           url: "https://example.com"
 
       - title: "Build Sales Pipeline for Cilans systems"
-        image: "/images/me.png"
+        image: "/images/sales-lead-generation.png"
         school:
           name: "Machine Learning, NLP, Scrapping, Data Analysis, Python, PowerBI, MySQL Database"
           url: " "
@@ -419,7 +419,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           url: "https://example.com"
 
       - title: "Developed Machine Learning based Stocks Trading Strategies"
-        image: "/images/me.png"
+        image: "/images/tradining-strategy.png"
         school:
           name: "Machine Learning, Time Series, Trading API, Scrapping, Data Analysis, Python, Trading Kite and AngelOne API"
           url: " "
@@ -430,7 +430,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           url: "https://example.com"
 
       - title: "Developed Smart Stocks Screeners"
-        image: "/images/me.png"
+        image: "/images/stock-prediction.png"
         school:
           name: "Machine Learning, Trading Kite and AngelOne API, Scrapping, Data Analysis, Python"
           url: " "
@@ -470,7 +470,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
       - title: Youtube Videos Summary and Analysis Application
         content: "Using GenAI framework built an application that summarises & analysis YouTube Videos. The Application provides a tool for users to quickly understand and evaluate video content. It summarizes key points and highlights from videos, making it easier to grasp main ideas without watching the entire content. Used NLP features like keyword extraction, sentiment analysis, and context breakdown to offer deeper insights. Ideal for researchers, students, and busy professionals, this application saves time and enhances comprehension by distilling lengthy videos into concise, informative summaries and analyses." 
 
-        image: /images/projects/profile.png
+        image: /images/youtube-summary.png
         featured:
           name: GitHub
           link: https://hugo-profile.netlify.app
@@ -489,7 +489,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
       - title: Movie Recommendation Application
         content: A Movie Recommendation Application utilizes machine learning algorithms and data analytics to deliver personalized film suggestions. It processes user data, such as viewing history, ratings, and genre preferences, to generate recommendations using techniques like collaborative filtering, content-based filtering, and hybrid models. Collaborative filtering analyzes patterns in user behavior to suggest movies based on similar users' choices, while content-based filtering recommends films with similar attributes to those a user has liked.
-        image: /images/projects/converter.jpg
+        image: /images/movie-recommendation.png
         featured:
           name: GitHub
           link: https://django-converter.herokuapp.com
@@ -505,7 +505,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
       - title: Stock Price Prediction Using Deep Learning
         content: Stock price prediction using deep learning leverages neural networks to forecast future stock prices based on historical data and market indicators. I used advanced models like Long Short-Term Memory (LSTM) networks and Gated Recurrent Units (GRUs)to capture temporal dependencies and trends in time-series data. The process involves preprocessing historical stock prices, incorporating additional features such as trading volume and sentiment analysis, and training the model on this data. The goal is to predict future price movements with improved accuracy, aiding investors in making informed decisions.
-        image: /images/projects/converter.jpg
+        image: /images/predictive-analysis.png
         featured:
           name: GitHub
           link: https://hugo-profile-2.netlify.app
@@ -520,7 +520,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
       - title: Youtube Videos Translation App
         content: A YouTube video translation application for English to Hindi uses OpenAI’s language models and Generative AI (GenAI) to translate video content. It starts by extracting the English audio from the video and converting it into text using speech recognition. OpenAI’s API then translates this text into Hindi, while GenAI ensures the translation is contextually accurate and natural-sounding. The translated text is used to create Hindi subtitles or voiceovers. This process involves advanced machine learning techniques to understand and generate human-like language, making it easier for Hindi-speaking users to comprehend and engage with English-language videos.
-        image: /images/projects/converter.jpg
+        image: /images/youtube-video-translation.png
         featured:
           name: GitHub
           link: https://hugo-profile-2.netlify.app
@@ -535,7 +535,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
       - title: Insurance Claims Clustering App
         content: An Insurance Claim Clustering App uses machine learning algorithms to categorize and group insurance claims based on various features such as claim type, severity, and fraudulent indicators. By analyzing historical claims data, the app identifies patterns and similarities, enabling insurers to streamline the claim management process. Clustering techniques, such as K-means or hierarchical clustering, are employed to segment claims into distinct categories for better handling and analysis. This helps in improving operational efficiency, detecting anomalies, and prioritizing claims that require immediate attention. Overall, the app aids in enhancing decision-making and resource allocation within the insurance industry.
-        image: /images/projects/converter.jpg
+        image: /images/car-claim-custering.png
         featured:
           name: GitHub
           link: https://hugo-profile-2.netlify.app
@@ -550,7 +550,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
 
       - title: 200 SMA and 50 EMA Crossover Screener
         content: The 200 SMA and 50 EMA Crossover Screener is a trading tool that identifies potential buy or sell signals based on moving average crossovers. It monitors the 200-day Simple Moving Average (SMA) and the 50-day Exponential Moving Average (EMA) of a stock or asset. When the 50 EMA crosses above the 200 SMA, it signals a potential buying opportunity, indicating an uptrend. Conversely, when the 50 EMA crosses below the 200 SMA, it suggests a potential selling opportunity, indicating a downtrend. This screener helps traders make informed decisions by highlighting significant trend shifts in the market.
-        image: /images/projects/converter.jpg
+        image: /images/sma-crossover.png
         featured:
           name: GitHub
           link: https://hugo-profile-2.netlify.app
