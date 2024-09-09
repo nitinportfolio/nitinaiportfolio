@@ -151,9 +151,13 @@ params:
           url: https://github.com/nitinportfolio
         - icon: fab fa-linkedin-in
           url: https://www.linkedin.com/in/nitinmonga-ai/
+        - icon: fa fa-envelope
+          url: "https://nitinai.xyz/#contact"
+        - icon: fa fa-phone
+          url: "https://nitinai.xyz/#contact"
       customIcons:
         - icon: /fav.png
-          url: "http://app.nitinaiportfolio.com/"
+          url: "http://app.nitinaiportfolio.com/Generative_AI_Overview"
 
   # About
   about:
