@@ -1,7 +1,8 @@
 baseURL: "https://example.org/"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Nitin Profile"
 theme: hugo-profile
+
 
 outputs:
   home:
@@ -21,17 +22,20 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+      
+      
+  
 
 Menus:
   main:
     - identifier: blog
-      name: Blog
-      title: Blog posts
+      #name: Blog
+      #title: Blog posts
       url: /blogs
       weight: 1
     - identifier: gallery
-      name: Gallery
-      title: Blog posts
+      #name: Gallery
+      #title: Blog posts
       url: /gallery
       weight: 2
     #Dropdown menu
@@ -75,7 +79,7 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
+    # disableThemeToggle: false
     # defaultTheme: "light" # dark
 
   font:
@@ -110,7 +114,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Nitin AI" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: True
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
@@ -138,18 +142,18 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: https://drive.google.com/file/d/1gBRGBWQ-IR64djSXbJcrmGJQsmIpAfrX/view?usp=drive_link
       download: true
-      newPage: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://github.com/nitinportfolio
+        - icon: fab fa-linkedin-in
+          url: https://www.linkedin.com/in/nitinmonga-ai/
       customIcons:
         - icon: /fav.png
-          url: "https://example.com"
+          url: "http://app.nitinaiportfolio.com/"
 
   # About
   about:
@@ -339,7 +343,7 @@ In the later stages of the project, we plan to integrate a GenAI agent capable o
 The entire concept was conceived and developed by me, with a focus on creating value and addressing key challenges within the agricultural sector. After thorough discussions, both the investors and the founder found this idea exceptionally compelling, recognizing its potential to significantly benefit the company. The idea not only aligns with the company’s goals but also positions us strongly in the market, driving future growth and sustainability."
         
         featuredLink:
-          enable: true
+          enable: false
           name: "Clone on Github"
           url: "http://app.nitinaiportfolio.com"
 
@@ -369,7 +373,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           #  - Lorem ipsum dolor sit amet consectetur adipisicing elit.
           #  - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
         featuredLink:
-          enable: true
+          enable: false
           name: "Clone on Github"
           url: "http://app.nitinaiportfolio.com"
 
@@ -382,7 +386,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         #GPA: "4.2 out of 5.0"
         content: "For a retail store client SaveMore, analysed & built sales & inventory dashboards. Sales dashboard helped supermarket clients in understanding identifying sales trends, seasonal fluctuations, top performing products, & customer buying pattern across all stores. And Inventory dashboards, helped in tracking inventory levels, demand forecasts, and reorder points. This prevents overstocking or under stocking thereby reducing inventory cost. "
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
       - title: "Brand Listening & Sentiment Analysis for Spring-Mattress Company"
@@ -393,7 +397,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         #GPA: "4.2 out of 5.0"
         content: "Brand Listening & Sentiment Analysis project for a client Spring-Mattress company that is based out of US. The analysis provided valuable insights into how customers perceive the brand, its products, and services. By monitoring online conversations, social media interactions, and customer reviews, the company gained a deep understanding of customer sentiment, preferences, and pain points. This information helped in identifying areas of improvement, addressing customer concerns proactively, and enhancing overall brand reputation and customer satisfaction. The actionable insights derived from the analysis guided strategic decision-making, allowing the company to optimize marketing strategies, product development, and customer engagement initiatives. "
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
       - title: "Clustered and Analysed data from HomeOwner Association (HOA)"
@@ -404,7 +408,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         #GPA: "4.2 out of 5.0"
         content: "Extracted and Analysed data from HomeOwner Association (HOA) PDF documents & categorized & store the data in a SQL database, paving the way for a front-end service that provides users with insights based on the uploaded HOA documents."
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
       - title: "Build Sales Pipeline for Cilans systems"
@@ -415,7 +419,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         #GPA: "4.2 out of 5.0"
         content: "For the client Cilans system who are into corporate trainings & consulting services. The project entails scraping publically available data from specified websites to collect comprehensive information about companies & working professionals, storing this data securely in a database, and utilizing Natural Language Processing (NLP) techniques for insightful analysis. The goal was to extract meaningful insights such about company, number of employees, name decision makers etc. that can benefit the client's sales team and enhance their sales strategies. The project significantly aided the client in creating an effective sales pipeline by leveraging data scraping which led to 30% increase in leads generation. The NLP insights enabled targeted outreach and personalized communication, ensuring engagement with high-potential leads that resulted in 15-20% improvement in the conversion rate. This approach streamlined the sales process, allowing the client to prioritize opportunities and optimized follow-up actions, reducing the average sales cycle duration by 15%, resulting in faster deal closures."
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
       - title: "Developed Machine Learning based Stocks Trading Strategies"
@@ -426,7 +430,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         #GPA: "4.2 out of 5.0"
         content: "For a SAAS based trading platform created ML based algorithmic trading strategies. The project involved designing, implementing, and optimizing Machine Learning based algorithmic trading strategies tailored to meet the specific requirements of clients. The goal was to develop automated trading systems that can execute trades based on predefined criteria and parameters.  Conducted back testing to evaluate strategy performance using historical data & optimize strategies for maximum efficiency, profitability, and risk mitigation. Backtesting strategies resulted in a quantifiable improvement in traders' profitability, with an average increase of 10% in profits across tested strategies."
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
       - title: "Developed Smart Stocks Screeners"
@@ -437,7 +441,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         #GPA: "4.2 out of 5.0"
         content: "Developed custom trading screeners for individual retail traders & implemented these screeners on cloud servers for easier access to the traders. These screeners were designed to assist clients in identifying potential trading opportunities based on their specified filtering criteria and market conditions. The developed screeners helped traders in filtering thousands of stocks & uncover hidden gems – stocks but haven't yet garnered wider attention. It frees up valuable time for the clients so that they can focus on in-depth analysis and trade execution. It also provides real time alerts & notifications about their trade setups price movements, or market events, allowing them to act promptly and capitalize on opportunities. Screener helped client in identifying 10 times more trading opportunities compared to when client was manually filtering & following stocks his stocks."
         featuredLink:
-          enable: true
+          enable: false
           url: "https://example.com"
 
   # Achievements
@@ -473,7 +477,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         image: /images/youtube-summary.png
         featured:
           name: GitHub
-          link: https://hugo-profile.netlify.app
+          link: https://github.com/nitinportfolio/youtubeapp
         badges:
           - "NLP"
           - "Huggingface"
@@ -483,7 +487,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           #- icon: fa fa-envelope
           #  url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/nitinportfolio/youtubeapp
           #- icon: fab fa-twitter
           #  url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
@@ -492,7 +496,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
         image: /images/movie-recommendation.png
         featured:
           name: GitHub
-          link: https://django-converter.herokuapp.com
+          link: https://github.com/nitinportfolio/MovieRecommendationSystem
         badges:
           - "Collabrative Filtering"
           - "Content-Based Filtering"
@@ -501,14 +505,14 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           - Streamlit
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/nitinportfolio/MovieRecommendationSystem
 
       - title: Stock Price Prediction Using Deep Learning
         content: Stock price prediction using deep learning leverages neural networks to forecast future stock prices based on historical data and market indicators. I used advanced models like Long Short-Term Memory (LSTM) networks and Gated Recurrent Units (GRUs)to capture temporal dependencies and trends in time-series data. The process involves preprocessing historical stock prices, incorporating additional features such as trading volume and sentiment analysis, and training the model on this data. The goal is to predict future price movements with improved accuracy, aiding investors in making informed decisions.
         image: /images/predictive-analysis.png
         featured:
           name: GitHub
-          link: https://hugo-profile-2.netlify.app
+          link: https://github.com/nitinportfolio/KiteStockSMACrossOvers
         badges:
           - "Deep Learning"
           - "LSTM"
@@ -516,14 +520,14 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           - "Trading APIs"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/nitinportfolio/KiteStockSMACrossOvers
 
       - title: Youtube Videos Translation App
         content: A YouTube video translation application for English to Hindi uses OpenAI’s language models and Generative AI (GenAI) to translate video content. It starts by extracting the English audio from the video and converting it into text using speech recognition. OpenAI’s API then translates this text into Hindi, while GenAI ensures the translation is contextually accurate and natural-sounding. The translated text is used to create Hindi subtitles or voiceovers. This process involves advanced machine learning techniques to understand and generate human-like language, making it easier for Hindi-speaking users to comprehend and engage with English-language videos.
         image: /images/youtube-video-translation.png
         featured:
           name: GitHub
-          link: https://hugo-profile-2.netlify.app
+          link: https://github.com/nitinportfolio/youtubeapp
         badges:
           - "GenAI"
           - "LLM"
@@ -531,14 +535,14 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           - "Langchain"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: ttps://github.com/nitinportfolio/youtubeapp
 
       - title: Insurance Claims Clustering App
         content: An Insurance Claim Clustering App uses machine learning algorithms to categorize and group insurance claims based on various features such as claim type, severity, and fraudulent indicators. By analyzing historical claims data, the app identifies patterns and similarities, enabling insurers to streamline the claim management process. Clustering techniques, such as K-means or hierarchical clustering, are employed to segment claims into distinct categories for better handling and analysis. This helps in improving operational efficiency, detecting anomalies, and prioritizing claims that require immediate attention. Overall, the app aids in enhancing decision-making and resource allocation within the insurance industry.
         image: /images/car-claim-custering.png
         featured:
           name: GitHub
-          link: https://hugo-profile-2.netlify.app
+          link: https://github.com/nitinportfolio/MachineLearningClustering
         badges:
           - "Machine Learning"
           - "K-Means Clustering"
@@ -546,14 +550,14 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           - "Streamlit"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/nitinportfolio/MachineLearningClustering
 
       - title: 200 SMA and 50 EMA Crossover Screener
         content: The 200 SMA and 50 EMA Crossover Screener is a trading tool that identifies potential buy or sell signals based on moving average crossovers. It monitors the 200-day Simple Moving Average (SMA) and the 50-day Exponential Moving Average (EMA) of a stock or asset. When the 50 EMA crosses above the 200 SMA, it signals a potential buying opportunity, indicating an uptrend. Conversely, when the 50 EMA crosses below the 200 SMA, it suggests a potential selling opportunity, indicating a downtrend. This screener helps traders make informed decisions by highlighting significant trend shifts in the market.
         image: /images/sma-crossover.png
         featured:
           name: GitHub
-          link: https://hugo-profile-2.netlify.app
+          link: https://github.com/nitinportfolio/KiteStockSMACrossOvers
         badges:
           - "Kite API"
           - "Angel One API"
@@ -561,15 +565,15 @@ Dataset Preparation: The images were annotated based on predefined quality metri
           - "Streamlit"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/nitinportfolio/KiteStockSMACrossOvers
 
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+    #title: "Custom Name"
+    content: "For any \n\n <h4>Machine Learning, GenAI Consulting Services</h4> \n\n\n\n <h4>Training Requirements</h4> \n\n feel free to contact me at \n\n <h3>+91 702 294 5888</h3> \n\n <h4>nitinmonga@gmail.com<h4>" 
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:nitinmonga@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -585,8 +589,8 @@ Dataset Preparation: The images were annotated based on predefined quality metri
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/nitinportfolio
+      linkedin: https://www.linkedin.com/in/nitinmonga-ai/
       #twitter: https://twitter.com
       #instagram: https://instagram.com
       #facebook: https://facebook.com
