@@ -575,7 +575,7 @@ Dataset Preparation: The images were annotated based on predefined quality metri
   contact:
     enable: true
     #title: "Custom Name"
-    content: "for any \n\n <h4>Machine Learning, GenAI Consulting Services</h4> \n\n <h5>or</h5> \n\n <h4>Training Requirements</h4> \n\n at \n\n <h3>+91 702 294 5888</h3> \n\n <h4>nitinmonga@gmail.com<h4>" 
+    content: "for any \n\n <h4>Machine Learning, GenAI Consulting Services</h4> \n\n <h5>or</h5> \n\n <h4>Training Requirements</h4> \n\n at \n\n <h3>+91 702 294 5888</h3> \n\n <h4>nitin@nitinai.xyz<h4>" 
     btnName: Mail me
     btnLink: mailto:nitin@nitinai@xyz
     # formspree:
